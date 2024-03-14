@@ -46,6 +46,24 @@ void insertionSort() {
     }
 }
 
+void display() {
+    cout << endl;
+    cout << "=================\n";
+    cout << "Element Array yang telah tersusun\n";
+    cout << "=================\n";
+    cout << endl;
+    for (int j = 0; j < n; j++) {
+        cout << arr[j];
+        if (j < n - 1) {
+            cout << "-->";
+        }
+    }
+    cout << endl;
+    cout << endl;
+    cout << "Jumlah Pass = " << n - 1 << endl;
+    cout << endl;
+}
+
 int main()
 {
     
